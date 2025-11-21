@@ -1,0 +1,17 @@
+/* Animasi gelombang untuk elemen melambai */
+.wave {
+  display: inline-block;
+  animation: waveAnimation 1.8s infinite;
+  transform-origin: 70% 70%; 
+}
+
+/* Definisi keyframes untuk animasi gelombang */
+@keyframes waveAnimation {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(20deg); }
+  30% { transform: rotate(-15deg); }
+  40% { transform: rotate(20deg); }
+  50% { transform: rotate(-10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}

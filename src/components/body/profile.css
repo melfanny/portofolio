@@ -1,0 +1,109 @@
+/* Wrapper utama untuk section profile */
+.profile {
+  width: 100%;
+  height: 50vh;
+  background: #ffffff;     
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Bagian kiri untuk menaruh icon social media secara vertikal */
+.profile-left {
+  position: absolute;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+/* Styling icon social media di bagian kiri */
+.profile-left i {
+  font-size: 22px;
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-left i:hover {
+  color: #0056b3;
+}
+
+/* Styling untuk setiap icon social media */
+.icon {
+  font-size: 24px;
+  color: #007bff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #0056b3;
+}
+
+/* Area tengah berisi nama, sapaan, jurusan dan tombol */
+.profile-center {
+  text-align: center;
+}
+
+.hello {
+  font-family: "Nunito";
+  font-size: 35px;
+  color: #555;
+}
+
+.name {
+  font-family: "Montserrat";
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+}
+
+.education {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.talk-btn {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.talk-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Bagian kanan untuk menaruh teks scroll down secara vertikal */
+.profile-right {
+  position: absolute;
+  right: 40px;
+}
+
+.scroll-down {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 16px;
+  color: #007bff;
+  cursor: default;
+}
+
+/* Styling khusus untuk animasi wave di samping sapaan */
+.wave-inline {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5px; 
+}
+
+.wave-inline .wave {
+  font-size: 35px; 
+}
