@@ -1,12 +1,12 @@
 import "./about.css";
-import { FaLaptopCode, FaBrain, FaCamera, FaLanguage, FaCode, FaGamepad, FaImage } from "react-icons/fa";
+import { FaLaptopCode, FaBrain, FaCamera, FaLanguage, FaCode, FaGamepad, FaImage, FaNetworkWired } from "react-icons/fa";
 
 const About = () => {
   return (
     <div className="about">
 
       {/* Judul utama untuk bagian About */}
-      <h1 className="about-title">ABOUT</h1>
+      <h1 className="about-title">ABOUT ME</h1>
 
       <div className="about-container">
         
@@ -18,11 +18,11 @@ const About = () => {
         {/* Isi deskripsi singkat tentang diri */}
         <div className="about-content">
           <p className="about-text">
-            Saya adalah mahasiswa semester 5 Teknik Informatika di Universitas Tarumanagara. 
-            Saya memiliki minat besar dalam eksplorasi teknologi baru, 
-            terutama pada pengembangan perangkat lunak dan pengolahan data. 
-            Saya senang mempelajari cara membangun sistem yang efisien dan fungsional serta memahami 
-            bagaimana teknologi dapat digunakan untuk menyelesaikan berbagai tantangan di dunia nyata. 
+            Saya adalah seorang undergraduate Teknik Informatika di Universitas Tarumanagara 
+            dengan ketertarikan pada dunia pemrograman dan pengembangan teknologi. Saya menikmati
+            proses mempelajari konsep baru serta membangun solusi yang dapat digunakan untuk 
+            menyelesaikan permasalahan nyata. Dengan fokus pada pengembangan diri dan eksplorasi teknologi,
+            saya terus berusaha meningkatkan kemampuan saya dalam setiap proyek yang saya kerjakan. 
           </p>
 
           {/* Tombol untuk mengunduh CV */}
@@ -43,6 +43,7 @@ const About = () => {
         <div className="interest-box"><FaCode /> Software Engineering</div>
         <div className="interest-box"><FaGamepad /> Game Development</div>
         <div className="interest-box"><FaImage /> Image Processing</div>
+        <div className="interest-box"><FaNetworkWired /> Networking</div>
       </div>
 
     </div>
