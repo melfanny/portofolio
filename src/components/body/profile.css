@@ -107,3 +107,86 @@
 .wave-inline .wave {
   font-size: 35px; 
 }
+
+/* Responsif untuk tablet */
+@media (max-width: 968px) {
+  .profile {
+    height: 45vh;
+  }
+  
+  .profile-left {
+    left: 30px;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 22px;
+  }
+  
+  .hello {
+    font-size: 30px;
+  }
+  
+  .name {
+    font-size: 38px;
+  }
+  
+  .education {
+    font-size: 18px;
+  }
+  
+  .profile-right {
+    right: 30px;
+  }
+  
+  .scroll-down {
+    font-size: 14px;
+  }
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 768px) {
+  .profile {
+    height: 60vh;
+    padding: 20px;
+  }
+  
+  .profile-left {
+    left: 20px;
+    gap: 12px;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .hello {
+    font-size: 26px;
+  }
+  
+  .name {
+    font-size: 32px;
+  }
+  
+  .education {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .talk-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+  
+  .profile-right {
+    right: 20px;
+  }
+  
+  .scroll-down {
+    font-size: 12px;
+  }
+  
+  .wave-inline .wave {
+    font-size: 26px;
+  }
+}
