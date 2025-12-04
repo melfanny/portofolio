@@ -2,6 +2,16 @@ import "./about.css";
 import { FaLaptopCode, FaBrain, FaCamera, FaLanguage, FaCode, FaGamepad, FaImage, FaNetworkWired } from "react-icons/fa";
 
 const About = () => {
+  const handleDownloadCV = () => {
+    // Membuat elemen anchor sementara untuk download
+    const link = document.createElement('a');
+    link.href = '/CV_Melfanny.pdf';
+    link.download = 'CV_Melfanny.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="about" id="about">
 
@@ -26,7 +36,7 @@ const About = () => {
           </p>
 
           {/* Tombol untuk mengunduh CV */}
-          <button className="cv-btn" onClick={() => alert('Download CV started!')}>
+          <button className="cv-btn" onClick={handleDownloadCV}>
             Curriculum Vitae Saya
           </button>
         </div>

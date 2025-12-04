@@ -24,7 +24,17 @@ const Profile = () => {
         <h1 className="name">Melfanny Leono</h1>
         <p className="education">Informatics Engineering Student at Tarumanagara University</p>
 
-        <button className="talk-btn">Let's Talk</button>
+        <button 
+          className="talk-btn"
+          onClick={() => {
+            const contactSection = document.getElementById('contact');
+            if (contactSection) {
+              contactSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
+        >
+          Let's Talk
+        </button>
       </div>
 
       {/* Bagian kanan berisi teks scroll down */}
