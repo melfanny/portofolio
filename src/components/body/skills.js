@@ -1,6 +1,6 @@
 import './skills.css';
 
-// Data dipisah di luar komponen (Clean Code Practice)
+// Data dipisah di luar komponen
 const SKILLS_DATA = [
   { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
   { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },

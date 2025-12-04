@@ -102,7 +102,7 @@ export default function Project() {
   }, [activeCategory]);
 
   return (
-    <section className="project-container">
+    <section className="project-container" id="projects">
       <h1 className="project-title">My Projects</h1>
 
       <div className="filter-buttons">

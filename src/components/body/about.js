@@ -3,7 +3,7 @@ import { FaLaptopCode, FaBrain, FaCamera, FaLanguage, FaCode, FaGamepad, FaImage
 
 const About = () => {
   return (
-    <div className="about">
+    <section className="about" id="about">
 
       {/* Judul utama untuk bagian About */}
       <h1 className="about-title">ABOUT ME</h1>
@@ -12,13 +12,13 @@ const About = () => {
         
         {/* Foto profil di bagian About */}
         <div className="about-photo">
-          <img src="/img/profileweb.jpeg" alt="Profile" />
+          <img src="/img/fotoaboutme.jpeg" alt="Profile" />
         </div>
 
         {/* Isi deskripsi singkat tentang diri */}
         <div className="about-content">
           <p className="about-text">
-            Saya adalah seorang undergraduate Teknik Informatika di Universitas Tarumanagara 
+            Saya adalah seorang mahasiswa Teknik Informatika di Universitas Tarumanagara 
             dengan ketertarikan pada dunia pemrograman dan pengembangan teknologi. Saya menikmati
             proses mempelajari konsep baru serta membangun solusi yang dapat digunakan untuk 
             menyelesaikan permasalahan nyata. Dengan fokus pada pengembangan diri dan eksplorasi teknologi,
@@ -46,7 +46,7 @@ const About = () => {
         <div className="interest-box"><FaNetworkWired /> Networking</div>
       </div>
 
-    </div>
+    </section>
   );
 }
 

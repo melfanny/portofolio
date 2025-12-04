@@ -15,11 +15,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Memberi ruang agar konten tidak tertutup navbar */
-body {
-  padding-top: 100px; 
-}
-
 /* Styling logo navbar */
 .logo {
   font-family: serif; 

@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, } from "react-icons/fa";
 
 const Profile = () => {
   return (
-    <div className="profile">
+    <section className="profile" id="home">
 
       {/* Bagian kiri berisi social media links */}
       <div className="profile-left">
@@ -31,7 +31,7 @@ const Profile = () => {
       <div className="profile-right">
         <p className="scroll-down">Scroll Down</p>
       </div>
-    </div>
+    </section>
   );
 }
 
